@@ -246,7 +246,7 @@ def main():
 
     # Save data
     print("\nSaving training data...")
-    df_train = save_training_data(training_data, '/Users/dzorlu/src/kalshi/data')
+    df_train = save_training_data(training_data, '/Users/dzorlu/src/kalshi-dataset/kalshi/data')
 
     # Print statistics
     print_statistics(df_train, weekly_stats)
@@ -266,7 +266,7 @@ def main():
         }
     }
 
-    metadata_path = Path('/Users/dzorlu/src/kalshi/data') / 'metadata.json'
+    metadata_path = Path('/Users/dzorlu/src/kalshi-dataset/kalshi/data') / 'metadata.json'
     with open(metadata_path, 'w') as f:
         json.dump(metadata, f, indent=2)
 
