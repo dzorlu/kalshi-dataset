@@ -28,7 +28,7 @@ print(f"Columns ({len(df.columns)}): {', '.join(df.columns.tolist()[:5])}...")
 dataset = Dataset.from_pandas(df)
 
 # Push to hub
-repo_name = "kalshi-filtered"
+repo_name = "SubconsciousDev/kalshi-filtered"
 print(f"\nUploading to HuggingFace as '{repo_name}'...")
 
 dataset.push_to_hub(
