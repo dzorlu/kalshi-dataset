@@ -1,0 +1,19 @@
+{
+  "total_examples": 1433,
+  "total_weeks": 46,
+  "date_generated": "2025-11-17T21:45:45.589780",
+  "config": {
+    "cutoff_day": "W-WED",
+    "cutoff_hour_utc": 16,
+    "forecast_window_days": [
+      1,
+      7
+    ],
+    "uncertainty_range": [
+      20,
+      80
+    ],
+    "min_volume": 1000,
+    "max_early_close_days": 1
+  }
+}
